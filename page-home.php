@@ -4,6 +4,34 @@ if ( have_posts() ) {
 		the_post(); 
 ?>			
 <?php $bg_img = get_the_post_thumbnail_url();?>
+
+
+
+<div class="vedio_bg">
+    <div class="home__hero__video">
+        <video autoplay muted loop id="myVideo">
+          <source src="http://localhost/equfin/wp-content/uploads/2019/04/heroVideo.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
+    <div class="slider122">
+        <div class="slider_one">
+             asedqwe
+        </div>
+    </div>
+    </div>
+    <!-- <div class="slider_main_home" id="z-index-lisder">
+        <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/footerBack.jpg">
+        </div>
+        <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/footerBack.jpg">
+        </div>
+        <div>
+            <img src="<?php echo get_template_directory_uri(); ?>/images/footerBack.jpg">
+        </div>
+    </div> -->
+</div>
+
 <div class="main_bg_home_page" style="background: url(<?php echo $bg_img;?>);">
 	<div class="container main_container_home_page">
 		<div class="heading_row">

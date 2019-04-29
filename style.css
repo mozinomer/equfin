@@ -781,6 +781,7 @@ strong
     font-weight: 300;
     font-size: 20px;
     line-height: 30px;
+    padding-top: 200px;
 }
 .blog_container_homepage
 {
@@ -863,7 +864,7 @@ header
         display: block;
     position: fixed;
     left: 0px;
-    z-index: 9;
+    z-index: 99999999999;
     background: #fff;
     width: 100%;
     /* transform: rotate(90deg); */
@@ -1113,4 +1114,32 @@ footer .footer__credits a {
     font-family: "Poppins",sans-serif;
     font-weight: 700;
     color: #0088cf;
+}
+.home__hero__video video
+{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    z-index: 0;
+    overflow: hidden;
+}
+.home__hero__video
+{
+    position: relative;
+    height: 100vh;
+}
+.slider122
+{
+    z-index: 9999;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+.slider_one
+{
+    width: 100%;
+    display: block;
+    text-align: center;
 }

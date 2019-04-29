@@ -127,3 +127,4 @@ if ( have_posts() ) {
 <?php	}
 	}
 ?>
+<?php get_footer();?>
