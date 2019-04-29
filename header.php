@@ -22,10 +22,10 @@
 		</div>
 		<div class="col-md-4 text-center menu_container">
 			<div id="burgerIcon" class="order-3">
-	            <span></span>
-	            <span></span>
-	            <span></span>
-	            <span></span>
+	            <span class="span0"></span>
+	            <span class="noe_dis"></span>
+	            <span class="noe_dis"></span>
+	            <span class="span4"></span>
 	        </div>
 	        <span class="menu">
 	        	menu
@@ -33,3 +33,67 @@
 		</div>
 	</div>
 </header>
+
+<div class="menu_full_screen">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="rows_fro_list">
+					<div class="heading_menu">
+						about us
+					</div>
+					<div class="list_menu_item">
+						<ul>
+							<li>the company</li>
+							<li>careers</li>
+						</ul>
+					</div>
+				</div>
+				<div class="rows_fro_list">
+					<div class="heading_menu">
+						what we do
+					</div>
+					<div class="list_menu_item">
+						<ul>
+							<li>products and tech</li>
+						</ul>
+					</div>
+				</div>
+				<div class="rows_fro_list">
+					<div class="heading_menu">
+						investor
+					</div>
+					<div class="list_menu_item">
+						<ul>
+							<li>overview</li>
+							<li>reports and result</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="rows_fro_list">
+					<div class="heading_menu">
+						blog and media
+					</div>
+					<div class="list_menu_item">
+						<ul>
+							<li>our blog</li>
+							<li>media kit</li>
+						</ul>
+					</div>
+				</div>
+				<div class="rows_fro_list">
+					<div class="heading_menu">
+						contact Us
+					</div>
+					<div class="list_menu_item">
+						<ul>
+							<li>get in touch</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

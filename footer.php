@@ -88,6 +88,56 @@
 	  cssEase: 'linear'
 	});
 </script>
+
+<!-- <script type="text/javascript">
+    $( "#burgerIcon" ).click(function() {
+      $( ".menu_full_screen" ).animate({'width': 'toggle'});
+    });
+</script> -->
+<script type="text/javascript">
+jQuery(document).ready( function() {
+  var out = 1;
+  jQuery('#burgerIcon').click( function(e) {
+    e.preventDefault();
+
+    if( out ) {
+        jQuery('.menu_full_screen').animate({
+                width: 'toggle'
+              },1000,function() {
+                    $(".menu_full_screen .container").fadeIn();
+                    jQuery("header").css({'background':'linear-gradient(to bottom, #7e3396 0%, #127dc7 100%)'});
+                    jQuery("#burgerIcon span").css({'background':'#fff'});
+                    jQuery(".menu").css({'color':'#fff'});
+                    jQuery(".noe_dis").css({'display':'none'});
+                    jQuery(".span4").addClass("span2")
+                    jQuery(".span0").addClass("span1")
+                  });
+        out = 0;
+        return;
+            }
+            else if(! out) {
+                $(".menu_full_screen .container").fadeOut();
+                jQuery('.menu_full_screen').animate({
+                width: 'toggle'
+              },1000,function(){
+                jQuery("header").css({'background':'#fff'});
+                jQuery("#burgerIcon span").css({'background':'#333'});
+                    jQuery(".menu").css({'color':'#333'});
+                    jQuery(".noe_dis").css({'display':'block'});
+                    jQuery(".span4").removeClass("span2")
+                    jQuery(".span0").removeClass("span1")
+              });
+             out = 1;
+        return;
+            }
+        
+    });
+
+
+       
+  });
+</script>
+
 </body>
 
 </html>

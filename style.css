@@ -1143,3 +1143,59 @@ footer .footer__credits a {
     display: block;
     text-align: center;
 }
+.menu_full_screen
+{
+    display: none;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: red;
+    z-index: 999999;
+    position: fixed;
+    background: #7e3396;
+    background: linear-gradient(to bottom, #7e3396 0%, #127dc7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e3396', endColorstr='#127dc7',GradientType=0 );
+    transition-delay: 0s;
+}
+.heading_menu {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #999;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    margin-top: 60px ;
+}
+.list_menu_item ul li {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #fff;
+    transition: all 0.4s;
+    text-transform: capitalize;
+}
+
+.list_menu_item ul {
+    list-style: none;
+    padding: 0px;
+}
+.menu_full_screen .container
+{
+    display: none;
+}
+
+.span1
+{
+    transform: rotate(51deg) !important;
+}
+.span2
+{
+        top: 0px !important;
+    transform: rotate(-49deg) !important;
+}
