@@ -1,0 +1,200 @@
+/*
+	Theme Name: equfin	
+	Theme URI: #
+	Author: Mozin Omer
+	Author URI: http://devroaks.com;
+	Description: qufin 
+	License: GNU General Public License v2 or later
+	License URI: #
+	Text Domain: equfin
+	Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+	This theme, like WordPress, is licensed under the GPL.
+	Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+body
+{
+	margin: 0px;
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.row 
+{
+	margin: 0px;
+}
+.header_pages
+{
+    padding: 50px 0px;
+    color: #fff;
+    /* background-size: 100% 100%; */
+    background-position: 50% 11.3001% !important;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    height: 300px;
+    padding-top: 160px;
+}
+.heading_under_page
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+    color: #fff;
+    text-transform: capitalize;
+}
+.heading_page {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #999;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main_content_container {
+    background-repeat: no-repeat !important;
+    padding: 70px 0px !important;
+    background-size: 100% 100% !important;
+}
+.content_page {
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.content_page strong
+{
+	font-weight: 700;
+}
+.heading_row_after_content {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+}
+.small_text
+{
+	    font-family: "Nunito Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+}
+.img_container img
+{
+	max-height: 100px;
+}
+.left_about_column span
+{
+	display: block;
+	width: 100%;
+}
+.left_about_column 
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+.align-center
+{
+	align-items: center;
+}
+.section_2_about_page
+{
+    text-align: left;
+    padding-left: 21%;
+    padding-top: 80px;
+    width: 100%;
+    float: left;
+}
+.block_left_about {
+    width: 100%;
+    background: #fff;
+    padding: 35px;
+    max-width: 555px;
+    float: left;
+    margin-top: 55px;
+    height: 400px;
+}
+.block_right_about {
+    height: 475px;
+    float: left;
+}
+.clear-left
+{
+	clear: left;
+}
+.team_container_about_page
+{
+	padding-top: 50px;
+}
+.heading_team_section h2
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+}
+.heading_team_section p
+{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+.the_post_thumbnail_team img
+{
+	width: 100%;
+	height: 100%;
+}
+.the_title_team h2
+{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+    margin-bottom: 10px;	
+}
+.the_content_team p
+{
+	font-family: "Nunito Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000;
+}
+.main_row_team_section
+{
+    margin-top: 50px;
+}
+.pad-0
+{
+	padding: 0px;
+}
