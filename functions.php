@@ -82,3 +82,66 @@ function wpdocs_filter_wp_title( $title, $sep ) {
     return $title;
 }
 add_filter( 'wp_title', 'wpdocs_filter_wp_title', 10, 2 );
+
+
+
+
+
+
+
+
+
+add_theme_support('post-thumbnails');
+add_post_type_support( 'services', 'thumbnail' );    
+// Our custom post type function
+function create_posttype_services() {
+ 
+    register_post_type( 'services',
+    // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'services' ),
+                'singular_name' => __( 'service' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'services'),
+            'supports' => array( 'title', 'editor',  'excerpt','custom-fields','page-attributes' )
+        )
+    );
+}
+// Hooking up our function to theme setup
+add_action( 'init', 'create_posttype_services' );
+add_action( 'init', 'create_services_hierarchical_taxonomy_services', 0 );
+function create_services_hierarchical_taxonomy_services() {
+ 
+// Add new taxonomy, make it hierarchical like categories
+//first do the translations part for GUI
+ 
+  $labels = array(
+    'name' => _x( 'tags', 'taxonomy general name' ),
+    'singular_name' => _x( 'tags', 'taxonomy singular name' ),
+    'search_items' =>  __( 'Search tagss' ),
+    'all_items' => __( 'All tagss' ),
+    'parent_item' => __( 'Parent tags' ),
+    'parent_item_colon' => __( 'Parent tags:' ),
+    'edit_item' => __( 'Edit tags' ), 
+    'update_item' => __( 'Update tags' ),
+    'add_new_item' => __( 'Add New tags' ),
+    'new_item_name' => __( 'New tags Name' ),
+    'menu_name' => __( 'tags' ),
+  );    
+ 
+// Now register the taxonomy
+ 
+  register_taxonomy('categoriesaaa',array('services'), array(
+    'hierarchical' => false,
+    'labels' => $labels,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'categoriesaa' ),
+  ));
+ 
+}
+

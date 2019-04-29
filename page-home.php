@@ -190,7 +190,7 @@ if ( have_posts() ) {
                                     	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon1.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
-                                    	<div class="col-sm-12">Mortgage Loans</div>
+                                    	<div class="col-sm-12">Industry BPO Solution</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mt-12 mt-sm-0 mt-md-0 home__section1__icon section1DAnim">
@@ -198,7 +198,7 @@ if ( have_posts() ) {
                                     	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon2.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
-                                    	<div class="col-sm-12">Business Loans</div>
+                                    	<div class="col-sm-12">eCommerce Solution</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mt-12 mt-sm-5 mt-lg-0 home__section1__icon section1DAnim">

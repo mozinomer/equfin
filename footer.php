@@ -88,6 +88,15 @@
 	  cssEase: 'linear'
 	});
 </script>
+<script type="text/javascript">
+    $('.slider_services').slick({
+      dots: true,
+      infinite: true,
+      speed: 700,
+      fade: true,
+      cssEase: 'linear'
+    });
+</script>
 
 <!-- <script type="text/javascript">
     $( "#burgerIcon" ).click(function() {
