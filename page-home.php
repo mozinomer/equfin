@@ -13,9 +13,63 @@ if ( have_posts() ) {
           <source src="http://localhost/equfin/wp-content/uploads/2019/04/heroVideo.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
-    <div class="slider122">
+    <div class="slider_main_home">
         <div class="slider_one">
-             asedqwe
+            <div class="row logo_main_slider">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/heritage_logo.png">
+            </div>
+             <div class="row main_heading_slider">
+                 about us
+             </div>
+             <div class="row heading_slider">
+                 <h2>
+                     Access to Money. For Everyone.
+                 </h2>
+             </div>
+             <div class="para">
+                 We nurture relations and grow our business by solving real everyday problems. Learn more of our journey, grow with us. 
+             </div>
+             <div class="button_slider">
+                 <a href="" class="buttonBlue">learn more</a>
+             </div>
+        </div>
+        <div class="slider_one">
+            <div class="row logo_main_slider">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/heritage_logo.png">
+            </div>
+             <div class="row main_heading_slider">
+                 Investor
+             </div>
+             <div class="row heading_slider">
+                 <h2>
+                     Trusty Partnership. Reliable Investment.
+                 </h2>
+             </div>
+             <div class="para">
+                We nurture relations and grow our business by solving real everyday problems. Learn more of our journey, grow with us. 
+             </div>
+             <div class="button_slider">
+                 <a href="" class="buttonBlue">learn more</a>
+             </div>
+        </div>
+        <div class="slider_one">
+            <div class="row logo_main_slider">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/heritage_logo.png">
+            </div>
+             <div class="row main_heading_slider">
+                 product & tech.
+             </div>
+             <div class="row heading_slider">
+                 <h2>
+                    Financial Inclusion. Tech Driven.
+                 </h2>
+             </div>
+             <div class="para">
+                Our product lineup and state of the art technology allow our clients access to money where and when they need it most. 
+             </div>
+             <div class="button_slider">
+                 <a href="" class="buttonBlue">learn more</a>
+             </div>
         </div>
     </div>
     </div>
@@ -38,7 +92,7 @@ if ( have_posts() ) {
 			TRASPARENT GROWTH
 		</div>
 		<div class="headign_inner_section_1">
-			Equfin in Numbers
+			Heritage BPO in Numbers
 		</div>
 		<div class="row mt-2 main_row_section_3_section-1">
             <div class="col-sm-6 col-lg-3 section1Anim">
@@ -118,13 +172,13 @@ if ( have_posts() ) {
                     <div class="row">
                     	<div class="col-sm-12 section1CAnim">
                     		<h3>
-                    			Innovation &amp; Fintech
+                    			Industries We Serve
                     		</h3>
                     	</div>
                     </div>
                     <div class="row">
                     	<div class="col-sm-12 section1CAnim col-lg-8 offset-lg-2">
-                            Equfin offers a lineup of Financial products, backed up by robust in-house platforms,
+                            Heritage BPO offers a lineup of Financial products, backed up by robust in-house platforms,
                             that deliver real solutions to consumer needs.
                         </div>
                     </div>
@@ -133,7 +187,7 @@ if ( have_posts() ) {
                             <div class="row">
                                 <div class="col-sm-6 col-lg-3 home__section1__icon section1DAnim">
                                     <div class="row">
-                                    	<div class="col-sm-12"><img src="https://equfin.com/wp-content/themes/equfin/assets/img/homeIcon1.png" class="fluid-img" alt="Mortgage Loans"></div>
+                                    	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon1.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
                                     	<div class="col-sm-12">Mortgage Loans</div>
@@ -141,7 +195,7 @@ if ( have_posts() ) {
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mt-12 mt-sm-0 mt-md-0 home__section1__icon section1DAnim">
                                     <div class="row">
-                                    	<div class="col-sm-12"><img src="https://equfin.com/wp-content/themes/equfin/assets/img/homeIcon2.png" class="fluid-img" alt="Mortgage Loans"></div>
+                                    	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon2.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
                                     	<div class="col-sm-12">Business Loans</div>
@@ -149,15 +203,15 @@ if ( have_posts() ) {
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mt-12 mt-sm-5 mt-lg-0 home__section1__icon section1DAnim">
                                     <div class="row">
-                                    	<div class="col-sm-12"><img src="https://equfin.com/wp-content/themes/equfin/assets/img/homeIcon3.png" class="fluid-img" alt="Mortgage Loans"></div>
+                                    	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon3.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
-                                    	<div class="col-sm-12">Auto Loans</div>
+                                    	<div class="col-sm-12">Financial Services</div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-lg-3 mt-12 mt-sm-5 mt-lg-0 home__section1__icon section1DAnim">
                                     <div class="row">
-                                    	<div class="col-sm-12"><img src="https://equfin.com/wp-content/themes/equfin/assets/img/homeIcon4.png" class="fluid-img" alt="Mortgage Loans"></div>
+                                    	<div class="col-sm-12"><img src="<?php echo get_template_directory_uri(); ?>/images/homeIcon4.png" class="fluid-img" alt="Mortgage Loans"></div>
                                     </div>
                                     <div class="row mt-3">
                                     	<div class="col-md-8 offset-md-2 col-lg-12 offset-lg-0">Online / Offline Payday Loans</div>
@@ -227,7 +281,7 @@ if ( have_posts() ) {
 		</div>
 		<div class="row mt-7">
 			<div class="col-sm-12">
-				<a href="http://localhost/equfin/blog/" class="buttonBlue animatedButton" style="--x:125px;--y:">
+				<a href="http://localhost/Heritage BPO/blog/" class="buttonBlue animatedButton" style="--x:125px;--y:">
 					<span>
 						VISIT OUR BLOG
 					</span>

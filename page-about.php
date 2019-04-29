@@ -30,7 +30,7 @@ if ( have_posts() ) {
 				</div>
 				<div class="para_container">
 					<p>
-						Consumer access to finance has become increasingly difficult. Equfin’s vision is to deliver financial solutions to people, when and where they need it;
+						Consumer access to finance has become increasingly difficult. Heritage BPO’s vision is to deliver financial solutions to people, when and where they need it;
 					</p>
 					<p class="small_text">
 						We use technology and innovation to solve real financing problems and provide value to our clients, our team and stakeholders. We deliver financial access to people and markets by striving to be best of breed and best of speed.
@@ -75,7 +75,7 @@ if ( have_posts() ) {
 			</h2>
 			<div class="row">
 				<p>
-					Equfin’s experience, partnerships, data, research and continuous testing, empowers our strategic growth.
+					Heritage BPO’s experience, partnerships, data, research and continuous testing, empowers our strategic growth.
 				</p>
 				<p>
 					We grow organically by solving everyday issues. At the cornerstone of our growth ethos is mobilizing our people and technology to continuously research, test and evolve.
@@ -92,7 +92,7 @@ if ( have_posts() ) {
 				Our Team
 			</h2>
 			<p>
-				Equfin unites individuals whose industry experience spans across multiple decades, industries and continents. A truly experienced, multicultural, world class team.
+				Heritage BPO unites individuals whose industry experience spans across multiple decades, industries and continents. A truly experienced, multicultural, world class team.
 			</p>
 		</div>
 		<?php $data_query =  new WP_Query(array('post_type' => 'teams', 'order_by'=>'Des', 'posts_per_page' => 4));?>

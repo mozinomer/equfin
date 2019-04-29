@@ -24,13 +24,13 @@ if ( have_posts() ) {
 		<div class="row">
 			<div class="col-12">
 			<h3>
-				Working at Equfin
+				Working at Heritage BPO
 				</h3>
 			</div> 
 		</div>
 		<div class="row">
                 <div class="col-md-6">
-               		 Equfin was built on the principles of inclusion, diversity and open-mindedness. Whilst the people that make up the company bring together a wealth of experience and industry knowledge, what has allowed them and the company to thrive, is their character, personality and unique background.
+               		 Heritage BPO was built on the principles of inclusion, diversity and open-mindedness. Whilst the people that make up the company bring together a wealth of experience and industry knowledge, what has allowed them and the company to thrive, is their character, personality and unique background.
             	</div>
                 <div class="col-md-6 mt-4 mt-md-0">
                     Our primary goal is to nurture a culture that allows people to be themselves, express their opinions, share their views and be an active component of the company’s growth and development.
@@ -47,7 +47,7 @@ if ( have_posts() ) {
    		</div>
         <div class="row">
         	<div class="col-12 text-center">
-        		There are no available positions at Equfin.
+        		There are no available positions at Heritage BPO.
 	   		</div> 
 	    </div>
         <div class="row">

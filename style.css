@@ -1,12 +1,12 @@
 /*
-	Theme Name: equfin	
+	Theme Name: Heritage BPO	
 	Theme URI: #
 	Author: Mozin Omer
 	Author URI: http://devroaks.com;
 	Description: qufin 
 	License: GNU General Public License v2 or later
 	License URI: #
-	Text Domain: equfin
+	Text Domain: Heritage BPO
 	Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 	This theme, like WordPress, is licensed under the GPL.
@@ -401,7 +401,16 @@ span.date_blog_post {
     font-weight: 600 !important;
     font-size: 17px !important;
     color: #333 !important;
+    text-decoration: none;
     text-transform: capitalize;
+}
+.blog_link_single_post:hover
+{
+    text-decoration: none;
+}
+.single_post_blog .underlineBtn::after
+{
+    background: #000 !important
 }
 .heading_form_required_main
 {
@@ -858,6 +867,7 @@ h3 {
     z-index: 90;
     transition: color 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
     text-transform: capitalize;
+    text-transform: uppercase;
 }
 header
 {
@@ -880,6 +890,7 @@ header
     float: left;
     position: absolute;
     top: calc(50% - 22px);
+    left: 20px;
 }
 
 .logo_container.col-md-4 {
@@ -888,9 +899,9 @@ header
     float: left;
 }
 .logo_container.col-md-4 img {
-    width: 47px;
-    height: 109%;
+    width: 32px;
     left: 0px;
+    margin-left: -6px;
 }
 footer {
     background-image: url(./images/footerBack.jpg);
@@ -1141,7 +1152,22 @@ footer .footer__credits a {
 {
     width: 100%;
     display: block;
-    text-align: center;
+    /* text-align: center; */
+    color: #fff;
+    font-size: 20px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 100;
+    margin-left: 20%;
+    /*margin-top: 10%;*/
+}
+.row.logo_main_slider {
+    margin-bottom: 5%;
+}
+.slider_main_home 
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .menu_full_screen
 {
@@ -1156,6 +1182,7 @@ footer .footer__credits a {
     background: linear-gradient(to bottom, #7e3396 0%, #127dc7 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7e3396', endColorstr='#127dc7',GradientType=0 );
     transition-delay: 0s;
+    text-transform: uppercase;
 }
 .heading_menu {
     font-family: "Poppins",sans-serif;
@@ -1171,12 +1198,14 @@ footer .footer__credits a {
     margin-bottom: 10px;
     margin-top: 60px ;
 }
+.list_menu_item ul li a,
 .list_menu_item ul li {
     font-family: "Poppins",sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 48px;
     color: #fff;
+    text-decoration: none;
     transition: all 0.4s;
     text-transform: capitalize;
 }
@@ -1198,4 +1227,90 @@ footer .footer__credits a {
 {
         top: 0px !important;
     transform: rotate(-49deg) !important;
+}
+.heading_slider h2
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.para
+{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+    width: 28%;
+    text-transform: capitalize;
+}
+.main_heading_slider
+{
+        font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: #999;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.button_slider a
+{
+    text-transform: uppercase;
+}
+.fab,.fas,.fa {
+    font-family: FontAwesome !important;
+    margin-right: 10px;
+    font-style: normal;
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.row.social_links {
+    position: absolute;
+    bottom: 70px;}
+
+}
+.social_links a i
+{
+    color: #ccc;
+    text-decoration: none;
+}
+.social_links a
+{
+    display: block;
+    color: #ccc;
+    transition: all 0.4s;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.social_links a i:hover
+{
+    color: #90278e;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+::placeholder
+{
+    color: #fff !important;
+}
+.section1EAnim {
+    margin-top: 60px;
+}
+body
+{
+    overflow-x: hidden;
 }

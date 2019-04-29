@@ -19,7 +19,7 @@ while (have_posts() ) : the_post();
 
 <div class="single_post_blog">
 	<div class="container">
-		<a href="http://localhost/equfin/blog/" class="underlineBtn underlineBtn--black blog_link_single_post">
+		<a href="http://localhost/Heritage BPO/blog/" class="underlineBtn blog_link_single_post">
 			<i class="fas fa-arrow-left"></i> 
 			Back to Our Blog
 		</a>

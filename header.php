@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>asd</title>
+	<title><?php wp_title('|', true, 'right'); ?></title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+	
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <?php wp_head();?>
 <body>
@@ -31,6 +34,11 @@
 	        	menu
 	        </span>
 		</div>
+		<div class="row social_links">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+		</div>
 	</div>
 </header>
 
@@ -43,10 +51,7 @@
 						about us
 					</div>
 					<div class="list_menu_item">
-						<ul>
-							<li>the company</li>
-							<li>careers</li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'my-custom-menu'));?>
 					</div>
 				</div>
 				<div class="rows_fro_list">
@@ -54,9 +59,7 @@
 						what we do
 					</div>
 					<div class="list_menu_item">
-						<ul>
-							<li>products and tech</li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'web-des'));?>
 					</div>
 				</div>
 				<div class="rows_fro_list">
@@ -77,10 +80,7 @@
 						blog and media
 					</div>
 					<div class="list_menu_item">
-						<ul>
-							<li>our blog</li>
-							<li>media kit</li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'extra-menu'));?>
 					</div>
 				</div>
 				<div class="rows_fro_list">
@@ -88,9 +88,7 @@
 						contact Us
 					</div>
 					<div class="list_menu_item">
-						<ul>
-							<li>get in touch</li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'logo-menu'));?>
 					</div>
 				</div>
 			</div>

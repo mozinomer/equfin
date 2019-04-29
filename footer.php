@@ -8,7 +8,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xl-2 col-lg-3 col-md-4 footer__logo footerAnim">
-				<img src="https://equfin.com/wp-content/themes/equfin/assets/img/logoFooter.png" alt="EQUFIN" class="img-fluid d-none d-md-block">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/heritage_full.png" alt="Heritage BPO" class="img-fluid d-none d-md-block">
 			</div>
 			<div class="col-lg-5 col-xl-4 offset-xl-2 col-md-4">
 				<div class="row">
@@ -42,12 +42,12 @@
                 </div>
             </div>
 		</div>
-		<p class="eq_disclaimer">EQUFIN HOLDINGS is the registered business name of CC Continental City Capital Ltd, a company incorporated and existing under the laws of the Republic of Cyprus under the registration number HE 342311, having its registered office at: Stavrou 56, Flat/Office 104, Strovolos, 2035, Nicosia, Cyprus</p>
+		<p class="eq_disclaimer">Heritage BPO HOLDINGS is the registered business name of CC Continental City Capital Ltd, a company incorporated and existing under the laws of the Republic of Cyprus under the registration number HE 342311, having its registered office at: Stavrou 56, Flat/Office 104, Strovolos, 2035, Nicosia, Cyprus</p>
 	</div>
 	<div class="mt-6"><hr></div>
 	<div class="container" style="clip-path: inset(0%);">
         <div class="row mt-3">
-            <div class="col-md-8 footer__copyright">Copyright © 2019 EQUFIN
+            <div class="col-md-8 footer__copyright">Copyright © 2019 Heritage BPO
                 <div class="d-block d-sm-inline-block">
                     <ul class="unorderedList">
                         <li><a href="privacy">Privacy Policy</a> </li>
@@ -81,9 +81,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script type="text/javascript">
 	$('.slider_main_home').slick({
-	  dots: true,
+	  dots: false,
 	  infinite: true,
-	  speed: 500,
+	  speed: 700,
 	  fade: true,
 	  cssEase: 'linear'
 	});

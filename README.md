@@ -1,2 +1,2 @@
-# equfin
-equfin repo
+# Heritage BPO
+Heritage BPO repo

@@ -35,7 +35,7 @@ if ( have_posts() ) {
 				</div>
 			</div>
 			<div class="col-xl-6 offset-xl-1 main_right_conbtact">
-				<div class="row mt-10 mt-xl-0">
+				<div class="row mt-xl-0">
 					<div class="col-12 text-center text-sm-left">
 						<h3>
 							HQ Office Details
@@ -44,21 +44,21 @@ if ( have_posts() ) {
 				</div>
 				<div class="row mt-xl-10">
                     <div class="col-4"><h5>Address</h5></div>
-                    <div class="col-8 smallText mt-1">Antheon 2, Monovoliko, Kato Polemidia, 4151, Limassol, Cyprus</div>
+                    <div class="col-8 smallText mt-1">4139 Gardendale St,San Antonio, TX 78229</div>
                 </div>
                 <div class="row mt-6">
                     <div class="col-4"><h5>Email</h5></div>
-                    <div class="col-8 smallText mt-1"><a href="mailto:contact@equfin.com">contact@equfin.com</a> </div>
+                    <div class="col-8 smallText mt-1"><a href="mailto:admin@heritagebpo.com">admin@heritagebpo.com</a> </div>
                 </div>
                 <div class="row mt-6">
                     <div class="col-4"><h5>Phone</h5></div>
-                    <div class="col-8 smallText mt-1"><a href="mailto:+35725250515">(+357) 25 367 377</a></div>
+                    <div class="col-8 smallText mt-1"><a href="tel:+1 210 569 111">+1 (210) 569 111</a></div>
                 </div>
                 <div class="row mt-6">
                     <div class="col-12 contact__content__social text-center text-sm-left">
-                        <a href="https://www.facebook.com/equfin" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://twitter.com/EquFin" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/company/equfin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
 			</div>
