@@ -198,3 +198,107 @@ body
 {
 	padding: 0px;
 }
+.tags_title_teams
+{
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #666666;
+}
+.the_post_thumbnail_blog
+{
+    position: relative;
+}
+.the_post_thumbnail_blog img
+{
+    max-width: 100%;
+    height: 250px;
+}
+.main_blog_row
+{
+    padding: 50px 0px 70px 0px;
+    min-height: 600px;
+}
+.inner_row_blog
+{
+    padding: 25px;
+    background: #fff;
+}
+.row.the_title_blog {
+    font-family: "Nunito Sans",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+    height: 55px;
+}
+span.date_blog_post {
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    width: 50%;
+    float: left;
+    color: #bbbbbb;
+    text-align: left;
+}
+.read_more_blog_post
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #0088cf;
+    text-align: right;
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+    float: right;
+    text-transform: capitalize;
+    text-align: right;
+    width: 50%;
+}
+.date_and_read_more
+{
+    width: 100%;
+    box-shadow: none !important;
+    margin-top: 50px;
+}
+.bg_blog
+{
+    background: #f5f5f5;
+}
+.blogAnim a .row:hover
+{
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.25);
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.blogAnim a
+{
+    text-decoration: none;
+}
+.the_post_thumbnail_blog::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #90278e;
+    background: linear-gradient(to bottom, #90278e 0%, #0087cf 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#90278e', endColorstr='#0087cf',GradientType=0 );
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.blogAnim:hover .the_post_thumbnail_blog::after
+{
+    opacity: 0.65;
+}
+.class_icon_read_more
+{
+    opacity: 0;
+    padding-left: 5px;
+    transition: all 0.3s cubic-bezier(0.47, 0, 0.745, 0.715);
+    -webkit-transform: translateX(-10px) translateY(0px);
+    transform: translateX(-10px) translateY(0px);
+}

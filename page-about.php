@@ -103,7 +103,16 @@ if ( have_posts() ) {
 			</div>
 			<div class="col-md-3 the_title_team">
 				<h2><?php the_title();?></h2>
-				<p>
+				<p class="tags_title_teams">
+					<?php
+						$terms = get_the_terms( $post->ID , 'categoriesa' ) ? get_the_terms( $post->ID , 'categoriesa' ) : [];
+						// var_dump($terms);
+						if ( count( $terms ) > 0 ) {
+							foreach ( $terms as $term ) {
+								echo $term->name;
+							}
+						}
+					?>
 						
 				</p>
 			</div>
