@@ -16,7 +16,7 @@ if ( have_posts() ) {
     <div class="slider_main_home">
         <div class="slider_one">
             <div class="row logo_main_slider">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/heritage_logo.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/heritage_full.png">
             </div>
              <div class="row main_heading_slider">
                  about us
