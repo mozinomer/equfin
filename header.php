@@ -45,7 +45,7 @@
 <div class="menu_full_screen">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="rows_fro_list">
 					<div class="heading_menu">
 						about us
@@ -74,7 +74,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="rows_fro_list">
 					<div class="heading_menu">
 						blog and media

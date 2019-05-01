@@ -129,9 +129,10 @@ jQuery(document).ready( function() {
                 jQuery('.menu_full_screen').animate({
                 width: 'toggle'
               },1000,function(){
-                jQuery("header").css({'background':'#fff'});
+                jQuery("header").css({'background':'#000'});
                 jQuery("#burgerIcon span").css({'background':'#333'});
-                    jQuery(".menu").css({'color':'#333'});
+                jQuery("#burgerIcon span").css({'background':'#fff'});
+                    jQuery(".menu").css({'color':'#fff'});
                     jQuery(".noe_dis").css({'display':'block'});
                     jQuery(".span4").removeClass("span2")
                     jQuery(".span0").removeClass("span1")

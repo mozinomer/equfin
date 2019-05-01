@@ -98,49 +98,52 @@ if ( have_posts() ) {
             <div class="col-sm-6 col-lg-3 section1Anim">
                 <div class="row">
                 	<div class="col-sm-12">
-                		<h2 class="h2_purple">REGISTERED CLIENTS
+                		<h2 class="h2_purple">BPO Processes completed
                 		</h2>
                 	</div>
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="1" data-speed="700">1.0</span>m+</div>
+                		<span class="timer count-number" data-to="1" data-speed="700">8</span>m+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 section1Anim mt-5 mt-sm-0">
                 <div class="row">
                 	<div class="col-sm-12">
-                		<h2 class="h2_purple">ONLINE LOANS ISSUED
+                		<h2 class="h2_purple">BPM & BPO Consultants
+
                 		</h2>
                 	</div>
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="1" data-speed="700">1.0</span>m+</div>
+                		<span class="timer count-number" data-to="1" data-speed="700">12</span>m+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 mt-5 mt-lg-0 section1Anim">
                 <div class="row">
                 	<div class="col-sm-12">
-                		<h2 class="h2_purple">ONLINE APPLICATIONS
+                		<h2 class="h2_purple">Awards & Recognitions
+
                 		</h2>
                 	</div>
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="2.3" data-speed="700">2.3</span>m+</div>
+                		<span class="timer count-number" data-to="2.3" data-speed="700">3</span>m+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 mt-5 mt-lg-0 section1Anim">
                 <div class="row">
                 	<div class="col-sm-12">
-                		<h2 class="h2_purple">FULL TIME EMPLOYEES
+                		<h2 class="h2_purple">Satisfied Clients
+
                 		</h2>
                 	</div>
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="300" data-speed="700">300</span>+</div>
+                		<span class="timer count-number" data-to="300" data-speed="700">100</span>+</div>
                 </div>
             </div>
         </div>
