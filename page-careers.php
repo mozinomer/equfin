@@ -56,9 +56,6 @@ if ( have_posts() ) {
 	   		</div> 
 	    </div>
 	</div>
-	<div class="container">
-		<?php echo do_shortcode('[wpforms id="66" title="false" description="false"]');?>
-	</div>
 </div>
 <?php }
 }

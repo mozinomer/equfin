@@ -64,20 +64,17 @@
 				</div>
 				<div class="rows_fro_list">
 					<div class="heading_menu">
-						investor
+						Partners
 					</div>
 					<div class="list_menu_item">
-						<ul>
-							<li>overview</li>
-							<li>reports and result</li>
-						</ul>
+						<?php wp_nav_menu(array('theme_location' => 'sm-ser'));?>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-12">
 				<div class="rows_fro_list">
 					<div class="heading_menu">
-						blog and media
+						blog
 					</div>
 					<div class="list_menu_item">
 						<?php wp_nav_menu(array('theme_location' => 'extra-menu'));?>

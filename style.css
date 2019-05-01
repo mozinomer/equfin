@@ -1443,4 +1443,40 @@ form#wpforms-form-66 select {
 button#wpforms-submit-66 {
     background: linear-gradient(to bottom, #7e3396 0%, #127dc7 100%);
     color: #fff;
+    width: 20%;
+}
+.align-center_item
+{
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.heading_partners
+{
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    color: #333;
+}
+
+.main_content_container_heading
+{
+    background: url(http://localhost/equfin/wp-content/themes/equfin/images/aboutBackground.jpg);
+    background-position: 50% 11.3001% !important;
+    overflow: hidden;
+    background-size: 100% 100% !important;
+}
+.row.align-center_item::after {
+    background: linear-gradient(to right, #0188cf 0%, #90278e 100%);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+}
+.wpforms-submit-container
+{
+    text-align: center;
 }
