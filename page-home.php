@@ -104,7 +104,7 @@ if ( have_posts() ) {
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="1" data-speed="700">8</span>m+</div>
+                		<span class="timer count-number" data-to="1" data-speed="700">8</span>+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 section1Anim mt-5 mt-sm-0">
@@ -117,7 +117,7 @@ if ( have_posts() ) {
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="1" data-speed="700">12</span>m+</div>
+                		<span class="timer count-number" data-to="1" data-speed="700">12</span>+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 mt-5 mt-lg-0 section1Anim">
@@ -130,7 +130,7 @@ if ( have_posts() ) {
                 </div>
                 <div class="row mt-2">
                 	<div class="col-sm-12 home__section1__number">
-                		<span class="timer count-number" data-to="2.3" data-speed="700">3</span>m+</div>
+                		<span class="timer count-number" data-to="2.3" data-speed="700">3</span>+</div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-3 mt-5 mt-lg-0 section1Anim">

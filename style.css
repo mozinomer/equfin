@@ -613,6 +613,7 @@ strong
     font-family: "Poppins",sans-serif;
     font-weight: 600;
     font-size: 70px;
+    text-align: center;
     line-height: 50px;
     color: #333;
 }
@@ -1390,4 +1391,56 @@ body
 {
     border-radius: 10px;
     background-image:linear-gradient(to bottom, #7e3396 0%, #127dc7 100%)
+}
+::placeholder {
+    color: #000 !important;
+}
+
+div#wpforms-66-field_7-container div label {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    float: none;
+    line-height: 1.3;
+    margin: 0 0 4px 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    margin: 10px;
+    margin-left: 0px;
+}
+div#wpforms-66-field_7-container div {
+    width: 100%;
+    max-width: 100%;
+    float: left;
+    margin: 0px;
+}
+div.wpforms-container-full .wpforms-form .wpforms-field-label-inline
+{
+    font-size: 13px !important;
+}
+form#wpforms-form-66 input[type="text"],
+form#wpforms-form-66 select {
+    font-size: 13px;
+    line-height: 18px;
+    color: rgb(34, 34, 34);
+    box-shadow: none;
+    width: 100%;
+    display: block;
+    height: 49px;
+    box-sizing: border-box !important;
+    background: transparent;
+    border-width: initial;
+    border-style: none;
+    border-color: #000;
+    border-image: initial;
+    outline: none;
+    padding: 16px 30px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease 0s;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+button#wpforms-submit-66 {
+    background: linear-gradient(to bottom, #7e3396 0%, #127dc7 100%);
+    color: #fff;
 }
