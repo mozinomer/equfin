@@ -6,27 +6,27 @@
 
 <footer>
 	<div class="container">
-		<div class="row">
-			<div class="col-xl-2 col-lg-3 col-md-4 footer__logo footerAnim">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/heritage_full.png" alt="Heritage BPO" class="img-fluid d-none d-md-block">
+		<div class="row display_block_rpw">
+			<div class="col_inner_blokv col-xl-2 col-sm-12 col-lg-3 col-md-4 footer__logo footerAnim">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/heritage_full.png" alt="Heritage BPO" class="img-fluid      d-none d-md-block">
 			</div>
-			<div class="col-lg-5 col-xl-4 offset-xl-2 col-md-4">
+			<div class="col_inner_blokv col-lg-5 col-sm-12 col-xl-4 offset-xl-2 col-md-4">
 				<div class="row">
-                    <div class="col-lg-6 footerAnim">
+                    <div class="col-lg-6 col-sm-12  footerAnim">
                         <div class="row mt-10 mt-md-0"><div class="col-sm-12"><a href="aboutus" class="underlineBtn">About us</a> </div> </div>
                         <div class="row "><div class="col-sm-12"><a href="whatwedo" class="underlineBtn">What we do</a> </div> </div>
                         <div class="row "><div class="col-sm-12"><a href="investorsoverview" class="underlineBtn">Investors</a> </div> </div>
                     </div>
-                    <div class="col-lg-6 footerAnim">
+                    <div class="col-lg-6  col-sm-12 footerAnim">
                         <div class="row  mt-lg-0"><div class="col-sm-12"><a href="careers" class="underlineBtn">Careers</a> </div> </div>
                         <div class="row "><div class="col-sm-12"><a href="blog-media" class="underlineBtn" target="_blank">Blog &amp; Media</a> </div> </div>
                         <div class="row "><div class="col-sm-12"><a href="contact" class="underlineBtn">Contact us</a> </div> </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 text-center text-md-left footerAnim">
+            <div class="col_inner_blokv col-md-4 col-sm-12 text-center text-md-left footerAnim">
             	<div class="footer__newsletter">
-                    <div class="row"><div class="col-sm-12"><h5><i class="fal fa-envelope"></i> SIGN UP FOR OUR NEWSLETTER</h5> </div> </div>
+                    <div class="row"><div class="col-sm-12"><h5 class="heading_footer_media"><i class="fal fa-envelope"></i> SIGN UP FOR OUR NEWSLETTER</h5> </div> </div>
                     <div class="row"><div class="col-sm-12">
                             <div class="form-group">
                                 <form id="eq_newsletter" action="https://formcarry.com/s/xm_-l9AbOFc" method="POST" accept-charset="UTF-8">
@@ -46,9 +46,9 @@
 	</div>
 	<div class="mt-6"><hr></div>
 	<div class="container" style="clip-path: inset(0%);">
-        <div class="row mt-3">
+        <div class="row mt-3 display_block_rpw">
             <div class="col-md-8 footer__copyright">Copyright © 2019 Heritage BPO
-                <div class="d-block d-sm-inline-block">
+                <div class="d-block d-sm-inline-block display_block_rpw_w">
                     <ul class="unorderedList">
                         <li><a href="privacy">Privacy Policy</a> </li>
                     </ul>
