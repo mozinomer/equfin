@@ -1481,9 +1481,20 @@ button#wpforms-submit-66 {
 {
     text-align: center;
 }
-
+    .header1
+    {
+        display: none;
+    }
 
 @media only screen and (max-width: 1000px) {
+    header
+    {
+        display: none;
+    }
+    .header1
+    {
+        display: block;
+    }
     .main_row_section_3_section-1 h2
     {
         font-size: 39px;
