@@ -54,7 +54,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 footer__credits text-center text-md-right">Website by <a href="http://www.blenddigital.com/" target="_blank">BLƎND</a></div>
+            <div class="col-md-4 footer__credits text-center text-md-right">Website by <a href="https://www.villaextechnologies.com/" target="_blank">Vilalex Technologies</a></div>
         </div>
     </div>
 </footer>
@@ -105,6 +105,14 @@
 </script> -->
 <script type="text/javascript">
 jQuery(document).ready( function() {
+
+    $(".menu-open").click(function(e){
+        $(".menU_dropdown").animate({
+            height: 'toggle'
+        },1000);
+    });
+
+
   var out = 1;
   jQuery('#burgerIcon').click( function(e) {
     e.preventDefault();

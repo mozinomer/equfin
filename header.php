@@ -92,3 +92,78 @@
 		</div>
 	</div>
 </div>
+
+
+<div class="header1">
+	<div class="row align-center">
+		<div class="col-md-5">
+			<?php 
+			   $custom_logo_id = get_theme_mod( 'custom_logo' );
+			   $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+			?>
+			<img src="<?php echo $image[0]; ?>" alt="">
+		</div>
+		<div class="col-md-7 menu-open">
+			menu
+		</div>
+	</div>
+	<div class="menU_dropdown">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="rows_fro_list">
+						<div class="heading_menu">
+							about us
+						</div>
+						<div class="list_menu_item">
+							<?php wp_nav_menu(array('theme_location' => 'my-custom-menu'));?>
+						</div>
+					</div>
+					<div class="rows_fro_list">
+						<div class="heading_menu">
+							what we do
+						</div>
+						<div class="list_menu_item">
+							<?php wp_nav_menu(array('theme_location' => 'web-des'));?>
+						</div>
+					</div>
+					<div class="rows_fro_list">
+						<div class="heading_menu">
+							Partners
+						</div>
+						<div class="list_menu_item">
+							<?php wp_nav_menu(array('theme_location' => 'sm-ser'));?>
+						</div>
+					</div>
+					<div class="rows_fro_list">
+						<div class="heading_menu">
+							blog
+						</div>
+						<div class="list_menu_item">
+							<?php wp_nav_menu(array('theme_location' => 'extra-menu'));?>
+						</div>
+					</div>
+					<div class="rows_fro_list">
+						<div class="heading_menu">
+							contact Us
+						</div>
+						<div class="list_menu_item">
+							<?php wp_nav_menu(array('theme_location' => 'logo-menu'));?>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row foot_icon_mobile">
+				<span>
+					<a href=""><i class="fab fa-facebook-f"></i></a>
+				</span>
+				<span>
+					<a href=""><i class="fab fa-twitter"></i></a>
+				</span>
+				<span>
+					<a href=""><i class="fab fa-linkedin-in"></i></a>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
